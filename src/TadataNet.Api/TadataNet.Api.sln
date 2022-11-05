@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadataNet.Api", "TadataNet.Api\TadataNet.Api.csproj", "{4A703853-22AC-4309-9F29-07FA2A790CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TadataNet.Api", "TadataNet.Api\TadataNet.Api.csproj", "{4A703853-22AC-4309-9F29-07FA2A790CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadataNet.Web", "..\TadataNet.Web\TadataNet.Web.csproj", "{845F7208-7718-4B29-B882-C5FCAC678372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TadataNet.Web", "..\TadataNet.Web\TadataNet.Web.csproj", "{845F7208-7718-4B29-B882-C5FCAC678372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadataNet.Common", "..\TadataNet.Common\TadataNet.Common.csproj", "{734CB12D-360A-43BB-A49F-7BE8361AEB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadataNet.Tool", "..\TadataNet.Tool\TadataNet.Tool.csproj", "{2477CA28-64B2-4C1C-ACED-EA8BE7385310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{845F7208-7718-4B29-B882-C5FCAC678372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845F7208-7718-4B29-B882-C5FCAC678372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845F7208-7718-4B29-B882-C5FCAC678372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734CB12D-360A-43BB-A49F-7BE8361AEB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734CB12D-360A-43BB-A49F-7BE8361AEB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734CB12D-360A-43BB-A49F-7BE8361AEB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734CB12D-360A-43BB-A49F-7BE8361AEB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2477CA28-64B2-4C1C-ACED-EA8BE7385310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2477CA28-64B2-4C1C-ACED-EA8BE7385310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2477CA28-64B2-4C1C-ACED-EA8BE7385310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2477CA28-64B2-4C1C-ACED-EA8BE7385310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
