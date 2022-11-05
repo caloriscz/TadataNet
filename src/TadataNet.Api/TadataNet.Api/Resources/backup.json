@@ -1,0 +1,12 @@
+﻿[
+  {
+    "Url": "https://github.com/CodeMazeBlog/advanced-rest-concepts-aspnetcore/tree/filtering-start/Entities/Models",
+    "Title": "CodeMazeBlog/advanced-rest-concepts-aspnetcore",
+    "Description": "vladimir-pecanac-main Initial commit"
+  },
+  {
+    "Url": "https://code-maze.com/filtering-aspnet-core-webapi/",
+    "Title": "How to Implement Filtering in ASP.NET Core Web API",
+    "Description": "We have a DateOfBirth property in our Owner class. Let’ say we want to find out which owners are born between the year 1975 and 1997. We also want to be able to enter just the starting year, and not the ending one, and vice versa."
+  }
+]
