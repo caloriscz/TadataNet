@@ -2,6 +2,7 @@ namespace TadataNet.Common.Authorization;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
+using TadataNet.Common.Helpers;
 
 public class JwtMiddleware
 {

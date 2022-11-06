@@ -1,6 +1,6 @@
-﻿using WebApi.Models.Settings;
+﻿using TadataNet.Common.Models.Settings;
 
-namespace WebApi.Services;
+namespace TadataNet.Common.Services;
 
 public interface ISettingsService
 {

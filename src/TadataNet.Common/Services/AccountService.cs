@@ -12,8 +12,7 @@ using TadataNet.Common.Accounts;
 using TadataNet.Common.Authorization;
 using TadataNet.Common.Entities;
 using TadataNet.Common.Helpers;
-using WebApi.Services;
-
+using TadataNet.Services;
 
 public interface IAccountService
 {

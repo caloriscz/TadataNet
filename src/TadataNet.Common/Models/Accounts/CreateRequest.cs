@@ -1,6 +1,7 @@
 namespace TadataNet.Common.Accounts;
 
 using System.ComponentModel.DataAnnotations;
+using TadataNet.Common.Entities;
 
 public class CreateRequest
 {

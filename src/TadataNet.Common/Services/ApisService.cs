@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using TadataNet.Common.Models.Apis;
 
-namespace WebApi.Services;
+namespace TadataNet.Common.Services;
 
 public interface IApisService
 {

@@ -1,10 +1,9 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using WebApi.Entities;
-using WebApi.Helpers;
-using WebApi.Models.Tags;
+using TadataNet.Common.Entities;
+using TadataNet.Common.Helpers;
+using TadataNet.Common.Models.Tags;
 
-namespace WebApi.Services;
+namespace TadataNet.Common.Services;
 
 public interface ITagsService
 {

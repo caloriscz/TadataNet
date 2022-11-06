@@ -5,7 +5,7 @@ using MimeKit;
 using MimeKit.Text;
 using TadataNet.Common.Helpers;
 
-namespace WebApi.Services;
+namespace TadataNet.Services;
 
 public interface IEmailService
 {

@@ -2,7 +2,7 @@
 using System.Net.Http.Json;
 using TadataNet.Common.Models.Apis;
 
-namespace WebApi.Services;
+namespace TadataNet.Common.Services;
 
 public class GithubService
 {

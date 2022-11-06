@@ -1,12 +1,10 @@
 ﻿using AutoMapper;
-using System.Diagnostics;
-using WebApi.Entities;
-using WebApi.Helpers;
-using WebApi.Models.Links;
-using WebApi.Models.Urls;
-using WebApi.Utilities;
+using TadataNet.Common.Entities;
+using TadataNet.Common.Helpers;
+using TadataNet.Common.Models.Urls;
+using TadataNet.Common.Utilities;
 
-namespace WebApi.Services;
+namespace TadataNet.Common.Services;
 
 public interface IUrlsService
 {

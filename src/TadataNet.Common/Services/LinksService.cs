@@ -1,14 +1,11 @@
 ﻿using AutoMapper;
-using System;
-using System.Diagnostics;
-using System.Net;
 using System.Text.Json;
 using TadataNet.Common.Entities;
 using TadataNet.Common.Helpers;
 using TadataNet.Common.Models.Links;
 using TadataNet.Common.Models.Tasks;
 
-namespace WebApi.Services;
+namespace TadataNet.Common.Services;
 
 public interface ILinksService
 {
