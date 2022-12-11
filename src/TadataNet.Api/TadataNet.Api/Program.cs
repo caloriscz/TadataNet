@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.OData;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using System.Text.Json.Serialization;
 using TadataNet.Common.Authorization;
 using TadataNet.Common.Helpers;
+using TadataNet.Common.Services;
+using TadataNet.Services;
 
 namespace TadataNet.Api;
 
@@ -32,6 +35,25 @@ public class Program
                 Description = "Bookmark manager with many features"    
             });
         });
+
+        var logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).Enrich.FromLogContext().CreateLogger();
+
+        logger.Information("Starting Jipnet Api");
+
+        builder.Logging.ClearProviders();
+        builder.Logging.AddSerilog(logger);
+
+        services.AddScoped<IJwtUtils, JwtUtils>();
+        services.AddScoped<IAccountService, AccountService>();
+        services.AddScoped<IApisService, ApisService>();
+        services.AddScoped<IEmailService, EmailService>();
+        services.AddScoped<ILinksService, LinksService>();
+        services.AddScoped<ITagsService, TagsService>();
+        services.AddScoped<ISettingsService, SettingsService>();
+        services.AddScoped<IUrlsService, UrlsService>();
+
+        services.AddTransient<GithubService>();
+
         var app = builder.Build();
 
         app.UseDeveloperExceptionPage();
